@@ -1,1 +1,18 @@
+* general stuff
+etherpad:
+http://pad.software-carpentry.org/2016-10-26-Wuerzburg
+
 * Notes Session 1
+downloaded some example files from
+http://data.imib-zinf.net/unix_course_files.zip
+
+some commands explained:
+#+BEGIN_SRC sh
+ls
+cd
+mkdir
+touch
+cp
+rm
+rmdir
+#+END_SRC
