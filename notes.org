@@ -16,3 +16,36 @@ cp
 rm
 rmdir
 #+END_SRC
+
+* Notes Session 2
+jupyter notebook -> a bit like org-mode, but in a browser and (as far as I 
+can guess from a first look) not as flexible...
+I will stick to org mode.
+
+I don't like the way, python uses `print`. It defaults to seperate items by
+whitespace and adds a newline at the end. This may be helpful for quick print
+statements, but I like the perl way more. It is more like "I do exactly what you tell me"
+and does not assume as much.
+
+cool feature in python:
+looking for a pattern in a string
+#+BEGIN_SRC python
+my_patt="pattern"
+my_str="This string does contain a pattern."
+if my_patt in my_str:
+   print("found")
+else:
+   print("nope")
+#+END_SRC
+
+for loops seem also to be intuitve (similar to bash)
+Example:
+#+BEGIN_SRC python
+for entry in range(1,5):
+    print(entry+42)
+#+END_SRC
+
+I still don't like the "python-style" loop and condition syntax by assigning meaning to 
+indentation. Indentation is good for code structuring, but I don't feel comfortable 
+assigning a meaning to it. To me it should be purely asthetical.
+
